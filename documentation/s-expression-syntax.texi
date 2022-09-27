@@ -261,7 +261,7 @@ evaluated while @cl{1}, @cl{(+ a b)} and @cl{3} are
 @concept{sub-expressions} that are evaluated. The latter are not
 automatically parsed and thus must be recursively processed in the way
 described here in order to obtain a fully parsed @concept{result
-tree}. A complete @concept{result tree} can generally only be produced
+tree}. A complete @concept{result tree} can generally be produced only
 by consulting an environment as well as interleaving parsing with
 macroexpansion and is therefore out of scope for this library.
 @end enumerate
